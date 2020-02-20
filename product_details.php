@@ -5,7 +5,7 @@ $json = file_get_contents("http://rdapi.herokuapp.com/product/read_one.php");
 $data = json_decode($json,true);
 $list = $data['records'];
 
-
+$value = $list;
 ?>
 
 <h1> Products Overview </h1>
