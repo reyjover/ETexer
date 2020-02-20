@@ -17,12 +17,12 @@ $list = $data['records'];
         <td>Price</td>
         <td>Category ID</td>
     </tr>
-<?php
+
     <tr>
         <td><?php echo $value['name'];?></td>
         <td><?php echo $value['description'];?></td>
         <td><?php echo $value['price'];?></td>
         <td><?php echo $value['category_id'];?></td>
     </tr>
-?>
+
 </table>
