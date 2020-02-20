@@ -17,15 +17,11 @@ $list = $data['records'];
         <td>Category ID</td>
     </tr>
 <?php
-foreach($list as $value){
-    ?>
     <tr>
         <td><?php echo $value['name'];?></td>
         <td><?php echo $value['description'];?></td>
         <td><?php echo $value['price'];?></td>
         <td><?php echo $value['category_id'];?></td>
     </tr>
-<?php
-}
 ?>
 </table>
