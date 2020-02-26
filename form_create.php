@@ -9,7 +9,7 @@
 	Name:<input type="text" name="name" placeholder="Enter Product Name"/><br/><br/>
 	Description:<textarea name="description" placeholder="Enter Item Description"/></textarea><br/><br/>
 	Price: <input type="number" name="price" placeholder="Enter Product Price"/><br/><br/>
-	Category:<selectname="category">
+	Category:<select name="category">
 		<option value="">--Select Category--</option>
 	<?php
       foreach($category as $cview){
