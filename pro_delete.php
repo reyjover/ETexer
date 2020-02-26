@@ -1,5 +1,5 @@
 <?php
-$id = $_POST['id'];
+$id = $_GET['id'];
 $curl = curl_init();
 
 curl_setopt_array($curl, array(
@@ -22,3 +22,4 @@ $response = curl_exec($curl);
 
 curl_close($curl);
 echo $response;
+header("location:index.php?loadnav=readprod");

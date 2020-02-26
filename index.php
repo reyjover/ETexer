@@ -15,6 +15,7 @@ $loadnav = (isset($_GET['loadnav']) && $_GET['loadnav'] != '') ? $_GET['loadnav'
                
                         <?php 
                         switch($loadnav){
+    
                             case 'readprod':
                             require_once 'show.php';
                             break;
@@ -30,6 +31,8 @@ $loadnav = (isset($_GET['loadnav']) && $_GET['loadnav'] != '') ? $_GET['loadnav'
                             case 'details':
                             require_once 'product_details.php';
                             break;
+                            default: 
+                            require_once('home.php');
                         }
                         ?>
 
