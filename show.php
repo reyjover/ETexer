@@ -7,18 +7,18 @@ $list = $data['records'];
 
 ?>
 
-<h1> Products Overview </h1>
+<h1 class="header"> Products Overview </h1>
 
-<table border="1px">
+<table>
     <tr>
-        <td>Product</td>
-        <td>Price</td>
+        <td class="label">Product</td>
+        <td class="label">Price</td>
     </tr>
 <?php
 foreach($list as $value){
     ?>
     <tr>
-        <td><a href="product_details.php?id=<?php echo $value['id'];?>"><?php echo $value['name'];?></a></td>
+        <td><a class="productlinks"href="product_details.php?id=<?php echo $value['id'];?>"><?php echo $value['name'];?></a></td>
         <td><?php echo $value['price'];?></td>
     </tr>
 <?php

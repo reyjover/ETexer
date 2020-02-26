@@ -6,10 +6,11 @@
 ?>
 <html>
 <form action="pro_create.php" method="POST">
-	Name:<input type="text" name="name" placeholder="Enter Product Name"/><br/><br/>
-	Description:<textarea name="description" placeholder="Enter Item Description"/></textarea><br/><br/>
-	Price: <input type="number" name="price" placeholder="Enter Product Price"/><br/><br/>
-	Category:<select name="category">
+	<br/>
+	<div class="formlabels"> Name: </div><input type="text" name="name" placeholder="Name"/><br/><br/>
+	<div class="formlabels"> Description: </div><textarea name="description" placeholder="Item Description"/></textarea><br/><br/>
+	<div class="formlabels"> Price:  </div><input type="number" name="price" placeholder="Price"/><br/><br/>
+	<div class="formlabels"> Category: </div><select name="category">
 		<option value=""> Category </option>
 	<?php
       foreach($category as $cview){
@@ -19,6 +20,8 @@
       }
     ?>
 	</select>
+	<br/>
+	<br/>
 	<input type="submit" name="submit" value="Create"/>
 </form>
 </html>

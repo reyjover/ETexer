@@ -8,15 +8,17 @@ $list = $details['records'];
 
 $value = $list;
 ?>
+<link rel="stylesheet" type="text/css" href="css/style.css">
+<link href="https://fonts.googleapis.com/css?family=Kanit:800i|Oswald|Teko:600&display=swap" rel="stylesheet">
+<div class="wrapper">
+<h1 class="header">  Product Overview </h1>
 
-<h1> Products Overview </h1>
-
-<table border="1px">
+<table>
     <tr>
-        <td>Product</td>
-        <td>Description</td>
-        <td>Price</td>
-        <td>Category ID</td>
+        <td class="label">Product</td>
+        <td class="label">Description</td>
+        <td class="label">Price</td>
+        <td class="label">Category ID</td>
         <td colspan="2"> </td>
     </tr>
 
@@ -25,9 +27,10 @@ $value = $list;
         <td><?php echo $value['description'];?></td>
         <td><?php echo $value['price'];?></td>
         <td><?php echo $value['category_id'];?></td>
-        <td> <a href="form_update.php?id=<?php echo $id ?>"> Update </a> </td>
-        <td> <a href="pro_delete.php?id=<?php echo $id ?>">Delete</a></td>
+        <td class="label"> <a href="form_update.php?id=<?php echo $id ?>"> Update </a> </td>
+        <td class="label">  <a href="pro_delete.php?id=<?php echo $id ?>">Delete</a></td>
     </tr>
     
 
 </table>
+</div>

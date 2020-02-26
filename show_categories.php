@@ -7,12 +7,12 @@ $list = $data['records'];
 
 ?>
 
-<h1> Categories </h1>
+<h1 class="header"> Categories </h1>
 
-<table border="1px">
+<table>
     <tr>
-        <td>Category ID</td>
-        <td>Category Name</td>
+        <td class="label">Category ID</td>
+        <td class="label">Category Name</td>
     </tr>
 <?php
 foreach($list as $value){
