@@ -1,3 +1,5 @@
+29 lines (25 sloc)  914 Bytes
+  
 <?php
 $name = $_POST['name'];
 $price = $_POST['price'];
