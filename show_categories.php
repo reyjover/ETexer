@@ -13,13 +13,15 @@ $list = $data['records'];
     <tr>
         <td class="label">Category ID</td>
         <td class="label">Category Name</td>
+        <td class="label">Description</td>
     </tr>
 <?php
 foreach($list as $value){
     ?>
     <tr>
-        <td><?php echo $value['category_id'];?></td>
-        <td><?php echo $value['category_name'];?></td>
+        <td><?php echo $value['id'];?></td>
+        <td><?php echo $value['name'];?></td>
+        <td><?php echo $value['description'];?></td>
     </tr>
 <?php
 }
