@@ -3,7 +3,7 @@ $json = file_get_contents("http://rdapi.herokuapp.com/product/read.php");
 
 $data = json_decode($json,true);
 $list = $data['records'];
-
+$search= $_POST['search'];
 if(isset($search)){
 	$jsearch = file_get_contents('http://rdapi.herokuapp.com/product/search.php?s='.$search);
 	$res = json_decode($jsearch,true);
@@ -16,10 +16,11 @@ if(isset($search)){
 ?>
 
 <h1 class="header"> Products Overview </h1>
-<form action="index.php?loadnav=readprod" method="POST">
-	Search: <input type="text" name="search" placeholder="Search Product Name">
-		<input type="submit" name="submit" value="Search">
-	</form>
+
+	<form action="index.php?loadnav=readprod" method="POST">
+		Search: <input type="text" name="search" placeholder="Search Product Name">
+			<input type="submit" name="submit" value="Search">
+		</form>
 <table>
     <tr>
         <td class="label">Product</td>
