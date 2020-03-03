@@ -8,10 +8,10 @@ if(isset($search)){
 	$jsearch = file_get_contents('http://rdapi.herokuapp.com/product/search.php?s='.$search);
 	$res = json_decode($jsearch,true);
 
-	$list = $res['records'];
+	$readprod = $res['records'];
 	
  }else{
-	$list = $data['records'];
+	$readprod = $data['records'];
  }
 ?>
 
