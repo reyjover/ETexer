@@ -11,7 +11,7 @@ $value = $list;
 <link rel="stylesheet" type="text/css" href="css/style.css">
 <link href="https://fonts.googleapis.com/css?family=Kanit:800i|Oswald|Teko:600&display=swap" rel="stylesheet">
 <div class="wrapper">
-    <a href="show.php"> <h1 class="header">  Product Overview </h1> </a>
+    <a href="index.php?loadnav=readprod"> <h1 class="header">  Product Overview </h1> </a>
 
 <table>
     <tr>
