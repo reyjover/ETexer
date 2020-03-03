@@ -16,7 +16,7 @@ if(isset($search)){
 ?>
 
 <h1 class="header"> Products Overview </h1>
-<form action="index.php?page=readprod" method="POST">
+<form action="index.php?loadnav=readprod" method="POST">
 	Search: <input type="text" name="search" placeholder="Search Product Name">
 		<input type="submit" name="submit" value="Search">
 	</form>
