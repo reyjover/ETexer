@@ -20,12 +20,18 @@ $loadnav = (isset($_GET['loadnav']) && $_GET['loadnav'] != '') ? $_GET['loadnav'
                <div class="content">
                         <?php 
                         switch($loadnav){
-    
+                            
                             case 'readprod':
                             require_once 'show.php';
                             break;
                             case 'readcat':
                             require_once 'show_categories.php';
+                            break;
+                            case 'pro_update':
+                            require_once 'pro_update.php';
+                            break;
+                            case 'pro_create':
+                            require_once 'pro_create.php';
                             break;
                             case 'create':
                             require_once 'form_create.php';
