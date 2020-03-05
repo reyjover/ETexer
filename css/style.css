@@ -4,8 +4,8 @@ body {
 }
 .wrapper{
     padding: 50px 50px 50px 50px;
-    width: 1366px;
-    min-height: 768px;
+    width: 1440px;
+    min-height: 900px;
     height: auto;
     margin: 0 auto;
     background-color: #223971;
