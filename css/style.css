@@ -6,6 +6,7 @@ body {
     padding: 50px 50px 50px 50px;
     width: 1440px;
     min-height: 900px;
+    width: auto;
     height: auto;
     margin: 0 auto;
     background-color: #223971;
