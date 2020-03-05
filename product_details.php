@@ -18,7 +18,7 @@ $value = $list;
         <td class="label">Product</td>
         <td class="label">Description</td>
         <td class="label">Price</td>
-        <td class="label">Category ID</td>
+        <td class="label">Category</td>
         <td colspan="2"> </td>
     </tr>
 
@@ -26,7 +26,7 @@ $value = $list;
         <td><?php echo $value['name'];?></td>
         <td><?php echo $value['description'];?></td>
         <td><?php echo $value['price'];?></td>
-        <td><?php echo $value['category_id'];?></td>
+        <td><?php echo $value['category_name'];?></td>
         <td class="label"> <a href="form_update.php?id=<?php echo $id ?>"> Update </a> </td>
         <td class="label">  <a href="pro_delete.php?id=<?php echo $id ?>">Delete</a></td>
     </tr>
