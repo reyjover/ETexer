@@ -33,7 +33,7 @@ if(isset($search)){
 foreach($list as $value){
     ?>
     <tr>
-        <td><a class="productlinks"href="product_details.php?id=<?php echo $value['id'];?>"><?php echo $value['name'];?></a></td>
+        <td><a class="productlinks"href="index.php?details&&id=<?php echo $value['id'];?>"><?php echo $value['name'];?></a></td>
         <td><?php echo $value['price'];?></td>
     </tr>
 <?php
