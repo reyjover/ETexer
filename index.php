@@ -36,6 +36,12 @@ $loadnav = (isset($_GET['loadnav']) && $_GET['loadnav'] != '') ? $_GET['loadnav'
                             case 'create':
                             require_once 'form_create.php';
                             break;
+                            case 'update':
+                            require_once 'form_create.php';
+                            break;
+                             case 'delete':
+                            require_once 'form_create.php';
+                            break;
                             case 'details':
                             require_once 'product_details.php';
                             break;
