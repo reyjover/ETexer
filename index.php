@@ -54,13 +54,14 @@ include('gconfig/read_google.php');
                             break;
                             default: 
                             require_once('show.php');
+                                break;
                         }
                       }
                       else{
                             echo $login_button;
                        }
                         ?>
-                        <h1><a href="google_logout.php" onClick="location.href='facebook_logout.php'">Logout</a></h1>
+                       
                         </div>
                   </diV>
                  
