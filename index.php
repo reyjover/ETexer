@@ -17,8 +17,7 @@ include('gconfig/read_google.php');
                         <ul class="nav-menu"> 
                         <li> <a href="index.php?loadnav=readprod"> PRODUCTS </a> </li>
                         <li> <a href="index.php?loadnav=readcat"> CATEGORIES </a> </li>
-                        <li> <a href="index.php?loadnav=create"> PRODUCT (+) </a> </li>
-                        <li> <a href="google_logout.php" onClick="location.href='facebook_logout.php'">Logout</a> </li>
+                            <li> <a href="index.php?loadnav=create"> PRODUCT (+) </a> </li>
                         </ul>
                </div>
 
