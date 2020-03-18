@@ -1,5 +1,9 @@
 <?php 
 $loadnav = (isset($_GET['loadnav']) && $_GET['loadnav'] != '') ? $_GET['loadnav']: '';
+
+
+include('gconfig/read_google.php');
+
 ?>
 <html> 
     <head>
@@ -14,11 +18,15 @@ $loadnav = (isset($_GET['loadnav']) && $_GET['loadnav'] != '') ? $_GET['loadnav'
                         <li> <a href="index.php?loadnav=readprod"> PRODUCTS </a> </li>
                         <li> <a href="index.php?loadnav=readcat"> CATEGORIES </a> </li>
                         <li> <a href="index.php?loadnav=create"> PRODUCT (+) </a> </li>
+                        <li> <a href="google_logout.php" onClick="location.href='facebook_logout.php'">Logout</a> </li>
                         </ul>
                </div>
 
                <div class="content">
+                        
                         <?php 
+                          if($login_button == '')
+                          {
                         switch($loadnav){
                             
                             case 'readprod':
@@ -48,9 +56,14 @@ $loadnav = (isset($_GET['loadnav']) && $_GET['loadnav'] != '') ? $_GET['loadnav'
                             default: 
                             require_once('show.php');
                         }
+                      }
+                      else{
+                            echo $login_button;
+                       }
                         ?>
+                        
                         </div>
                   </diV>
-
+                 
     </body>
 </html>
