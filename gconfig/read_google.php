@@ -1,3 +1,4 @@
+<link rel="stylesheet" type="text/css" href="css/styles.css">
 <?php
 
 //google file to read data components from User and create sessions
