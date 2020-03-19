@@ -8,7 +8,7 @@ $list = $details['records'];
 
 $value = $list;
 ?>
-<link rel="stylesheet" type="text/css" href="css/style.css">
+<link rel="stylesheet" type="text/css" href="css/styles.css">
 <link href="https://fonts.googleapis.com/css?family=Kanit:800i|Oswald|Teko:600&display=swap" rel="stylesheet">
 <div class="wrapper">
     <h1 class="header">  Product Overview </h1>
