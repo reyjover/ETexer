@@ -32,8 +32,6 @@ if(isset($_GET["code"])){
 }
 if(!isset($_SESSION['access_token'])){
 
-//assign my custom google button
-
- $login_button = '<br><a href="'.$google_client->createAuthUrl().'" class="btn-google m-b-20"><img src="images/icons/icon-google.png" alt="GOOGLE">Google</a>';
+ $login_button = '<br><a href="'.$google_client->createAuthUrl().'" class="btn btn-block btn-social btn-google"><span class="fa fa-google"></span> Sign in with Google</a>';
 }
 ?>
