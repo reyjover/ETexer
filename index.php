@@ -52,7 +52,7 @@ if($login_button == true){
                             require_once('home.php');
                                 break;
                         }
-                      } else{
+                      } if else{
                             echo $login_button;
                        }
                         ?>
