@@ -18,6 +18,12 @@ if(isset($search)){
 	$list = $data['records'];
  }
 ?>
+<html>
+<head> 
+<title> Endterm Activity </title> 
+<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
         <div class="nav"> 
                         <ul class="nav-menu"> 
                         <li> <a href="show.php?loadnav=readprod"> PRODUCTS </a> </li>
@@ -83,3 +89,5 @@ foreach($list as $value){
 ?>
 </table>
  <h1><a href="logout_google.php" onClick="location.href='logout_facebook.php'">Logout</a></h1>
+ </body>
+</html>
