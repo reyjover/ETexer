@@ -53,7 +53,7 @@ if($login_button == true){
                                 break;
                         }
                       }else{
-                      if(isset(facebook_login_url)){
+                      if(isset($facebook_login_url)){
                       echo $login_button;
                       }else{
                       // blank
