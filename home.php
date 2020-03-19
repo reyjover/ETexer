@@ -30,7 +30,8 @@ if(isset($search)){
                         <ul class="nav-menu"> 
                         <li> <a href="home.php?loadnav=readprod"> PRODUCTS </a> </li>
                         <li> <a href="home.php?loadnav=readcat"> CATEGORIES </a> </li>
-                        <li> <a href="home.php?loadnav=create"> PRODUCT (+) </a> </li>
+				<li> <a href="home.php?loadnav=create"> PRODUCT (+) </a> </li>
+				<li> <a href="logout_google.php" onClick="location.href='logout_facebook.php'"> LOGOUT  </a> </li>
                         </ul>
                </div>
 
@@ -67,7 +68,6 @@ if(isset($search)){
                         }
                         ?>
                </div>
-	 <h1><a href="logout_google.php" onClick="location.href='logout_facebook.php'">Logout</a></h1>
                </div>
 
  </body>
