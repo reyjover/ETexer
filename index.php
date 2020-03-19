@@ -11,14 +11,19 @@ if($login_button == true){
 <html> 
     <head>
       <title>  Endterm | Final Exam </title>
-      <link rel="stylesheet" type="text/css" href="css/style.css">
+      <link rel="stylesheet" type="text/css" href="css/styles.css">
       <link href="https://fonts.googleapis.com/css?family=Kanit:800i|Oswald|Teko:600&display=swap" rel="stylesheet">
+       <link href="bootstrap-social.css" rel="stylesheet" >
+      <link href="assets/css/bootstrap.css" rel="stylesheet">
+      <link href="assets/css/font-awesome.css" rel="stylesheet">
+      <link href="assets/css/docs.css" rel="stylesheet">
     </head>
     <body>
     <div class="wrapper">
-
-               <div class="content">
-                        
+      
+                   <div class="loginwrapper">
+                        <div class="logincontent">
+                        <center><h1> SIGN IN OPTIONS</h1><center>
                         <?php 
                           if($login_button == '')
                           {
@@ -98,7 +103,7 @@ if($login_button == true){
               }
             }
                 ?>
-                       
+                          </div>
                         </div>
                   </diV>
                  
