@@ -67,7 +67,8 @@ if(isset($search)){
                         }
                         ?>
                </div>
+	 <h1><a href="logout_google.php" onClick="location.href='logout_facebook.php'">Logout</a></h1>
                </div>
- <h1><a href="logout_google.php" onClick="location.href='logout_facebook.php'">Logout</a></h1>
+
  </body>
 </html>
