@@ -28,4 +28,4 @@ curl_setopt_array($curl, array(
   
   curl_close($curl);
   echo $response;
-  header("location:show.php?loadnav=readprod");
+  header("location:home.php?loadnav=readprod");

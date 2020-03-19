@@ -5,7 +5,7 @@
 	$category = $catData['records'];
 ?>
 <html>
-<form action="index.php?loadnav=pro_create" method="POST">
+<form action="home.php?loadnav=pro_create" method="POST">
 	<br/>
 	<div class="formlabels"> Name: </div><input type="text" name="name" placeholder="Name"/><br/><br/>
 	<div class="formlabels"> Description: </div><textarea name="description" placeholder="Item Description"/></textarea><br/><br/>

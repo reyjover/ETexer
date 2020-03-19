@@ -22,4 +22,4 @@ $response = curl_exec($curl);
 
 curl_close($curl);
 echo $response;
-header("location:show.php?loadnav=readprod");
+header("location:home.php?loadnav=readprod");

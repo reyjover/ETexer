@@ -27,8 +27,8 @@ $value = $list;
         <td><?php echo $value['description'];?></td>
         <td><?php echo $value['price'];?></td>
         <td><?php echo $value['category_name'];?></td>
-        <td class="label"> <a href="show.php?loadnav=update&&id=<?php echo $id ?>"> Update </a> </td>
-        <td class="label">  <a href="show.php?loadnav=delete&&id=<?php echo $id ?>">Delete</a></td>
+        <td class="label"> <a href="home.php?loadnav=update&&id=<?php echo $id ?>"> Update </a> </td>
+        <td class="label">  <a href="home.php?loadnav=delete&&id=<?php echo $id ?>">Delete</a></td>
     </tr>
     
 
