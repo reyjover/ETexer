@@ -106,7 +106,7 @@ if($login_button == true){
                           </div>
                           </div>
                         </div>
-                  </diV>
+                  </div>
                  
     </body>
 </html>
