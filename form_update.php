@@ -11,7 +11,7 @@
 	$category = $catData['records'];
 ?>
 <html>
-<link rel="stylesheet" type="text/css" href="css/style.css">
+<link rel="stylesheet" type="text/css" href="css/styles.css">
       <link href="https://fonts.googleapis.com/css?family=Kanit:800i|Oswald|Teko:600&display=swap" rel="stylesheet">
 <br/>
 <div class="wrapper">
