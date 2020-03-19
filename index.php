@@ -20,7 +20,7 @@ if($login_button == true){
     </head>
     <body>
     <div class="wrapper">
-      
+            <div class="content">
                    <div class="loginwrapper">
                         <div class="logincontent">
                         <center><h1> SIGN IN OPTIONS</h1><center>
@@ -103,6 +103,7 @@ if($login_button == true){
               }
             }
                 ?>
+                          </div>
                           </div>
                         </div>
                   </diV>
