@@ -18,11 +18,11 @@ if(isset($search)){
 	$list = $data['records'];
  }
 ?>
-            <div class="nav"> 
+        <div class="nav"> 
                         <ul class="nav-menu"> 
-                        <li> <a href="index.php?loadnav=readprod"> PRODUCTS </a> </li>
-                        <li> <a href="index.php?loadnav=readcat"> CATEGORIES </a> </li>
-                            <li> <a href="index.php?loadnav=create"> PRODUCT (+) </a> </li>
+                        <li> <a href="show.php?loadnav=readprod"> PRODUCTS </a> </li>
+                        <li> <a href="show.php?loadnav=readcat"> CATEGORIES </a> </li>
+                        <li> <a href="show.php?loadnav=create"> PRODUCT (+) </a> </li>
                         </ul>
                </div>
 
@@ -62,7 +62,7 @@ if(isset($search)){
                </div>
 <h1 class="header"> Products Overview </h1>
 
-	<form action="index.php?loadnav=readprod" method="POST">
+	<form action="show.php?loadnav=readprod" method="POST">
 		<input type="text" name="search" placeholder="Search Product Name">
 			<input type="submit" name="submit" value="Search">
 		</form>
@@ -75,7 +75,7 @@ if(isset($search)){
 foreach($list as $value){
     ?>
     <tr>
-        <td><a class="productlinks"href="index.php?loadnav=details&&id=<?php echo $value['id'];?>"><?php echo $value['name'];?></a></td>
+        <td><a class="productlinks"href="show.php?loadnav=details&&id=<?php echo $value['id'];?>"><?php echo $value['name'];?></a></td>
         <td><?php echo $value['price'];?></td>
     </tr>
 <?php
