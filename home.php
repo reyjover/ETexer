@@ -63,7 +63,7 @@ if(isset($search)){
                             require_once 'product_details.php';
                             break;
                             default: 
-                            require_once('home.php');
+                            require_once('show.php');
                                 break;
                         }
                         ?>
