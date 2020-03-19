@@ -16,7 +16,7 @@ $google_client->setClientId('728728130313-vgq0qfob5naoqrhgml5fqdlu5tehcbfk.apps.
 $google_client->setClientSecret('Fr9TdYQVShXJXJkQ_5ZWovm5');
 
 //Set the OAuth 2.0 Redirect URI
-$google_client->setRedirectUri('https://endterm-exercise1.herokuapp.com/index.php');
+$google_client->setRedirectUri('https://endterm-exercise1.herokuapp.com/home.php');
 
 //
 $google_client->addScope('email');
