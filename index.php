@@ -16,13 +16,6 @@ if($login_button == true){
     </head>
     <body>
     <div class="wrapper">
-            <div class="nav"> 
-                        <ul class="nav-menu"> 
-                        <li> <a href="index.php?loadnav=readprod"> PRODUCTS </a> </li>
-                        <li> <a href="index.php?loadnav=readcat"> CATEGORIES </a> </li>
-                            <li> <a href="index.php?loadnav=create"> PRODUCT (+) </a> </li>
-                        </ul>
-               </div>
 
                <div class="content">
                         
