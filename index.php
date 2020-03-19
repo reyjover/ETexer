@@ -10,7 +10,7 @@ if($login_button == true){
 ?>
 <html> 
     <head>
-      <title>  Endterm Activity </title>
+      <title>  Endterm | Final Exam </title>
       <link rel="stylesheet" type="text/css" href="css/style.css">
       <link href="https://fonts.googleapis.com/css?family=Kanit:800i|Oswald|Teko:600&display=swap" rel="stylesheet">
     </head>
