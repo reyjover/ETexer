@@ -1,0 +1,145 @@
+body {
+    background-color: #121F45;
+    color: white;
+}
+.wrapper{
+    padding: 50px 50px 50px 50px;
+    width: 1440px;
+    min-height: 900px;
+    width: auto;
+    height: auto;
+    margin: 0 auto;
+    background-color: #223971;
+ }
+ .productlinks {
+    font-family: 'Teko', sans-serif;
+    font-size: 20px;
+ }
+ .formlabels {
+    font-family: 'Teko', sans-serif;
+    font-size: 25px; 
+ }
+a{
+    text-decoration: none;
+}
+.header{
+    font-family: 'Kanit', sans-serif;
+    font-size: 50px;
+}
+.label {
+    font-family: 'Kanit', sans-serif;
+    font-size: 30px;
+}
+/* unvisited link */
+a:link {
+    color: #F4F5F5;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: #F4F5F5;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: #FFC906;
+  }
+  
+  /* selected link */
+  a:active {
+    color: #FFC906;
+  }
+  .nav {
+    padding: 30px 0px 10px 0px;
+    text-align: center;
+    width: 100%;
+    height: 100px;
+    background-color: #CB2026;
+ }
+ .nav-menu ul{
+    list-style-type: none;
+
+  }
+  .nav-menu li{
+      text-decoration: none;
+      display: inline;
+
+      margin-right: 15px;
+      padding: 4px 10px;
+      font-family: 'Kanit', sans-serif;
+      font-size: 40px;
+  }
+  table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  tr {
+
+  }
+  tr, td {
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {background-color: #CB2026;}
+  tr:nth-child(even) {background-color: #121F45;}
+
+  input[type=text] {
+    width: 75%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+  }
+  input[type=number] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+  }
+  textarea {
+    width: 100%;
+    height: 150px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    resize: none;
+  }
+  select {
+    width: 100%;
+    padding: 16px 20px;
+    border: none;
+    border-radius: 4px;
+    background-color: #f1f1f1;
+  }
+input[type=submit]{
+      border-radius: 10px;
+    background-color: #CB2026;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+  .logincontent{
+    border-radius: 30px;
+    margin: 0 auto;
+    margin-left: 15%;
+    margin-right: 15%;
+    background-color: brown;
+    font-family: 'Kanit', sans-serif;
+    font-size: 25px;
+    color: white;
+    height: 400px;
+    padding-top: 30px;
+    padding-bottom: 10px;
+  }
+  .loginwrapper{
+    border-radius: 30px;
+    margin: 0 auto;
+    margin-left: 30%;
+    margin-right: 30%;
+    background-color: brown;
+}
