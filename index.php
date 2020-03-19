@@ -52,10 +52,15 @@ if($login_button == true){
                             require_once('home.php');
                                 break;
                         }
-                      } if else{
-                            echo $login_button;
-                       }
-                        ?>
+                      }else{
+                      if(isset){
+                      echo $login_button;
+                      }
+                      else{
+                      
+                      }
+                      ?>
+
                         <br/>
                     <?php
               if(isset($facebook_login_url)){
