@@ -1,3 +1,4 @@
+<link rel="stylesheet" type="text/css" href="css/styles.css">
 <?php
 include('fbconfig.php');
 
@@ -40,8 +41,8 @@ if(isset($_GET['code'])){
  // Get login url
     $facebook_permissions = ['email']; // Optional permissions
     $facebook_login_url = $facebook_helper->getLoginUrl('https://endterm-exercise1.herokuapp.com/', $facebook_permissions);  
-// Render Facebook login button
-    $facebook_login_url = '<a href="'.$facebook_login_url.'" class="btn-face m-b-20"><i class="fa fa-facebook-official"></i>Facebook</a>';
+
+       $facebook_login_url = '<a href="'.$facebook_login_url.'" class="btn btn-block btn-social btn-facebook"><span class="fa fa-facebook"></span> Sign in with Facebook </a>';
 }
 
 ?>
