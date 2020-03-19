@@ -54,7 +54,7 @@ if(isset($search)){
                             require_once 'form_create.php';
                             break;
                             case 'update':
-                            require_once 'form_create.php';
+                            require_once 'form_update.php';
                             break;
                              case 'delete':
                             require_once 'pro_delete.php';
