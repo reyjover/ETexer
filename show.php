@@ -40,4 +40,3 @@ foreach($list as $value){
 }
 ?>
 </table>
- <h1><a href="logout_google.php" onClick="location.href='logout_facebook.php'">Logout</a></h1>

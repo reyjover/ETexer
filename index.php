@@ -49,7 +49,7 @@ if($login_button == true){
                             require_once 'product_details.php';
                             break;
                             default: 
-                            require_once('show.php');
+                            require_once('home.php');
                                 break;
                         }
                       }
@@ -90,7 +90,7 @@ if($login_button == true){
                   require_once 'product_details.php';
                   break;
                   default: 
-                  require_once('show.php');
+                  require_once('home.php');
                       break;
               }
             }

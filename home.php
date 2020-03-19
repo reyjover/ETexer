@@ -28,9 +28,9 @@ if(isset($search)){
 <div class="wrapper">
         <div class="nav"> 
                         <ul class="nav-menu"> 
-                        <li> <a href="show.php?loadnav=readprod"> PRODUCTS </a> </li>
-                        <li> <a href="show.php?loadnav=readcat"> CATEGORIES </a> </li>
-                        <li> <a href="show.php?loadnav=create"> PRODUCT (+) </a> </li>
+                        <li> <a href="home.php?loadnav=readprod"> PRODUCTS </a> </li>
+                        <li> <a href="home.php?loadnav=readcat"> CATEGORIES </a> </li>
+                        <li> <a href="home.php?loadnav=create"> PRODUCT (+) </a> </li>
                         </ul>
                </div>
 
