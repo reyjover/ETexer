@@ -53,9 +53,6 @@ if($login_button == true){
                                 break;
                         }
                       }
-                      else{
-                            echo $login_button;
-                       }
                         ?>
                         <br/>
                     <?php
